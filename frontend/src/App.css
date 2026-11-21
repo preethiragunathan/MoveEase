@@ -1,0 +1,1420 @@
+
+/* Home Page */
+
+.home {
+    background: linear-gradient(120deg, #eaf1f8, #d7e7f5);
+    padding: 100px 20px;
+    min-height: 480px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.home-content {
+    max-width: 850px;
+}
+
+.home-tagline {
+    display: inline-block;
+    color: #315b88;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.home h1 {
+    font-size: 46px;
+    color: #1e3a5f;
+    margin-bottom: 22px;
+    line-height: 1.25;
+}
+
+.home h1 span {
+    color: #d49a20;
+}
+
+.home p {
+    font-size: 18px;
+    color: #555;
+    max-width: 700px;
+    margin: 0 auto 32px;
+    line-height: 1.8;
+}
+
+.home-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    flex-wrap: wrap;
+}
+
+.home-btn {
+    display: inline-block;
+    background-color: #1e3a5f;
+    color: white;
+    padding: 14px 25px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.home-btn:hover {
+    background-color: #315b88;
+    transform: translateY(-2px);
+}
+
+.secondary-btn {
+    background-color: #d49a20;
+    color: #1e3a5f;
+}
+
+.secondary-btn:hover {
+    background-color: #f5b942;
+}
+
+/* Home Services Section */
+
+.home-services {
+    padding: 70px 30px;
+    background-color: #fff;
+}
+
+.home-section-heading {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.home-section-heading h2 {
+    font-size: 30px;
+    color: #1e3a5f;
+    margin-bottom: 12px;
+}
+
+.home-section-heading p {
+    color: #666;
+    font-size: 16px;
+}
+
+.home-service-cards {
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.home-service-card {
+    background-color: #f5f7fa;
+    padding: 30px 22px;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.home-service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+.home-service-icon {
+    font-size: 42px;
+    margin-bottom: 18px;
+}
+
+.home-service-card h3 {
+    color: #1e3a5f;
+    margin-bottom: 12px;
+}
+
+.home-service-card p {
+    color: #666;
+    line-height: 1.7;
+}
+
+.home-services-link {
+    text-align: center;
+    margin-top: 35px;
+}
+
+.home-services-link a {
+    color: #1e3a5f;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.home-services-link a:hover {
+    color: #d49a20;
+}
+
+/* Why Choose MoveEase */
+
+.why-moveease {
+    padding: 70px 30px;
+    background-color: #eaf1f8;
+}
+
+.why-moveease-grid {
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.why-moveease-grid > div {
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+.why-moveease-grid h3 {
+    color: #1e3a5f;
+    margin-bottom: 12px;
+}
+
+.why-moveease-grid p {
+    color: #666;
+    line-height: 1.7;
+}
+
+/* Home Call to Action */
+
+.home-cta {
+    padding: 65px 20px;
+    text-align: center;
+    background-color: #1e3a5f;
+    color: white;
+}
+
+.home-cta h2 {
+    font-size: 30px;
+    margin-bottom: 12px;
+}
+
+.home-cta p {
+    margin-bottom: 25px;
+    color: #e0e8f0;
+    font-size: 16px;
+}
+
+/* Responsive Home Page */
+
+@media (max-width: 768px) {
+    .home {
+        padding: 75px 20px;
+    }
+
+    .home h1 {
+        font-size: 34px;
+    }
+
+    .home p {
+        font-size: 16px;
+    }
+
+    .home-service-cards,
+    .why-moveease-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .home-services,
+    .why-moveease {
+        padding: 50px 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .home h1 {
+        font-size: 29px;
+    }
+
+    .home-buttons {
+        flex-direction: column;
+    }
+
+    .home-btn {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+.secondary-btn {
+    background-color: #f0a92e;
+    color: #222;
+}
+
+.secondary-btn:hover {
+    background-color: #d9931c;
+}
+
+
+.services-page {
+    padding: 50px 40px;
+    text-align: center;
+}
+
+.services-page h1 {
+    color: #1e3a5f;
+    margin-bottom: 15px;
+}
+
+.services-page > p {
+    margin-bottom: 30px;
+    color: #666;
+}
+
+.service-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.service-card {
+    background-color: white;
+    padding: 25px;
+    width: 250px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.service-card h3 {
+    color: #1e3a5f;
+    margin-bottom: 12px;
+}
+
+.service-card p {
+    margin: 8px 0;
+    color: #666;
+}
+
+
+.form-page {
+    max-width: 650px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-page h1 {
+    color: #1e3a5f;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.form-page > p {
+    text-align: center;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+.inquiry-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.inquiry-form input,
+.inquiry-form textarea,
+.inquiry-form select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+}
+
+.inquiry-form textarea {
+    min-height: 85px;
+    resize: vertical;
+}
+
+.inquiry-form label {
+    margin-bottom: -10px;
+    color: #444;
+}
+
+.inquiry-form button {
+    background-color: #1e3a5f;
+    color: white;
+    border: none;
+    padding: 14px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.inquiry-form button:hover {
+    background-color: #315b88;
+}
+
+.form-message {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.vehicles-page {
+    padding: 50px 40px;
+    text-align: center;
+}
+
+.vehicles-page h1 {
+    color: #1e3a5f;
+    margin-bottom: 15px;
+}
+
+.vehicles-page > p {
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.vehicle-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.vehicle-card {
+    background-color: white;
+    width: 270px;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.vehicle-card h3 {
+    color: #1e3a5f;
+    margin-bottom: 15px;
+}
+
+.vehicle-card p {
+    margin: 10px 0;
+    color: #555;
+}
+
+.available-status {
+    color: green !important;
+    font-weight: bold;
+}
+
+
+.admin-login-page {
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.admin-login-card {
+    background-color: white;
+    width: 100%;
+    max-width: 420px;
+    padding: 35px;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+.admin-login-card h1 {
+    text-align: center;
+    color: #1e3a5f;
+    margin-bottom: 10px;
+}
+
+.admin-login-card > p {
+    text-align: center;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+.admin-login-card form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.admin-login-card input {
+    padding: 13px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.admin-login-card button {
+    padding: 13px;
+    background-color: #1e3a5f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.admin-login-card button:hover {
+    background-color: #315b88;
+}
+
+.admin-message {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+/* Admin Dashboard */
+
+.admin-dashboard {
+    min-height: 85vh;
+    padding: 40px;
+    background-color: #f5f7fa;
+}
+
+.admin-dashboard-header {
+    background-color: #ffffff;
+    padding: 25px 30px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+    margin-bottom: 35px;
+}
+
+.admin-dashboard-header h1 {
+    color: #1e3a5f;
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+.admin-dashboard-header p {
+    color: #666;
+    font-size: 15px;
+}
+
+.admin-dashboard-header button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 11px 22px;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.admin-dashboard-header button:hover {
+    background-color: #b52a37;
+}
+
+.admin-dashboard-content h2 {
+    color: #1e3a5f;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.admin-dashboard-content > p {
+    color: #666;
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+
+.admin-dashboard-cards {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 25px;
+}
+
+.admin-card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.07);
+    border-left: 5px solid #1e3a5f;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.admin-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.12);
+}
+
+.admin-card h3 {
+    color: #1e3a5f;
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.admin-card p {
+    color: #666;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+    .admin-dashboard {
+        padding: 20px;
+    }
+
+    .admin-dashboard-header {
+        padding: 20px;
+        gap: 15px;
+    }
+
+    .admin-dashboard-header h1 {
+        font-size: 22px;
+    }
+
+    .admin-dashboard-cards {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .admin-dashboard-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+
+/* Admin Management Pages */
+
+.admin-management-page {
+    min-height: 85vh;
+    padding: 40px;
+    background-color: #f5f7fa;
+}
+
+.admin-management-page h1 {
+    color: #1e3a5f;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.admin-management-page > p {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.admin-service-area-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 22px;
+}
+
+.admin-service-area-card {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    border-left: 5px solid #1e3a5f;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+}
+
+.admin-service-area-card h3 {
+    color: #1e3a5f;
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.admin-service-area-card p {
+    color: #555;
+    font-size: 15px;
+    margin-bottom: 9px;
+}
+
+.error-message {
+    color: #dc3545;
+    margin-bottom: 15px;
+}
+
+/* Responsive layout */
+
+@media (max-width: 768px) {
+    .admin-management-page {
+        padding: 20px;
+    }
+
+    .admin-service-area-list {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Service Area Add Form */
+
+.admin-form-card {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+    margin-bottom: 35px;
+}
+
+.admin-form-card h2 {
+    color: #1e3a5f;
+    font-size: 21px;
+    margin-bottom: 22px;
+}
+
+.admin-form-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px;
+    margin-bottom: 22px;
+}
+
+.admin-form-grid input {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+    outline: none;
+}
+
+.admin-form-grid input:focus {
+    border-color: #1e3a5f;
+}
+
+.admin-submit-btn {
+    background-color: #1e3a5f;
+    color: white;
+    border: none;
+    padding: 13px 25px;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.admin-submit-btn:hover {
+    background-color: #315b88;
+}
+
+.admin-submit-btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.admin-section-title {
+    color: #1e3a5f;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.success-message {
+    color: #198754;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+@media (max-width: 600px) {
+    .admin-form-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .admin-form-card {
+        padding: 20px;
+    }
+}
+
+
+.admin-edit-btn {
+    background-color: #f5b942;
+    color: #1e3a5f;
+    border: none;
+    padding: 9px 20px;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.admin-edit-btn:hover {
+    background-color: #e5a82f;
+}
+
+.admin-cancel-btn {
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    padding: 13px 25px;
+    border-radius: 6px;
+    margin-left: 12px;
+    cursor: pointer;
+}
+
+.admin-cancel-btn:hover {
+    background-color: #555e66;
+}
+
+
+.admin-delete-btn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 9px 20px;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.admin-delete-btn:hover {
+    background-color: #bb2d3b;
+}
+
+.admin-status-btn {
+    border: none;
+    padding: 9px 20px;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.deactivate-btn {
+    background-color: #6c757d;
+    color: white;
+}
+
+.deactivate-btn:hover {
+    background-color: #565e64;
+}
+
+.activate-btn {
+    background-color: #198754;
+    color: white;
+}
+
+.activate-btn:hover {
+    background-color: #146c43;
+}
+
+
+
+/* Vehicle Management Form */
+
+.admin-form-grid select {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+    background-color: white;
+    outline: none;
+}
+
+.admin-form-grid select:focus {
+    border-color: #1e3a5f;
+}
+
+.admin-availability-label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 22px;
+    color: #444;
+    font-size: 15px;
+}
+
+.admin-availability-label input {
+    width: 17px;
+    height: 17px;
+    cursor: pointer;
+}
+
+.admin-form-actions {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/* Vehicle Cards */
+
+.admin-vehicle-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 22px;
+}
+
+.admin-vehicle-card {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    border-left: 5px solid #1e3a5f;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+}
+
+.admin-vehicle-card h3 {
+    color: #1e3a5f;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.admin-vehicle-card p {
+    color: #555;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.admin-vehicle-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 7px;
+    margin-bottom: 18px;
+}
+
+.admin-vehicle-actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+    margin-top: 15px;
+}
+
+.admin-vehicle-actions button {
+    margin: 0;
+}
+
+.available-text {
+    color: #198754;
+}
+
+.unavailable-text {
+    color: #dc3545;
+}
+
+@media (max-width: 768px) {
+    .admin-vehicle-list {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+/* Admin Inquiry Management */
+
+.admin-inquiry-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 22px;
+}
+
+.admin-inquiry-card {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    border-left: 5px solid #1e3a5f;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+}
+
+.admin-inquiry-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.admin-inquiry-header h3 {
+    color: #1e3a5f;
+    font-size: 20px;
+}
+
+.inquiry-status {
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+    background-color: #e9ecef;
+    color: #495057;
+}
+
+.inquiry-status.pending {
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+.inquiry-status.contacted {
+    background-color: #cfe2ff;
+    color: #084298;
+}
+
+.inquiry-status.quoted {
+    background-color: #e2d9f3;
+    color: #59359a;
+}
+
+.inquiry-status.converted {
+    background-color: #d1e7dd;
+    color: #0f5132;
+}
+
+.inquiry-status.rejected {
+    background-color: #f8d7da;
+    color: #842029;
+}
+
+.admin-inquiry-details {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px 20px;
+    margin-bottom: 22px;
+}
+
+.admin-inquiry-details p {
+    color: #555;
+    font-size: 14px;
+    line-height: 1.6;
+    overflow-wrap: anywhere;
+}
+
+.admin-inquiry-details strong {
+    color: #333;
+}
+
+.admin-inquiry-controls {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px;
+    margin-bottom: 20px;
+}
+
+.admin-inquiry-controls label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #444;
+}
+
+.admin-inquiry-controls select,
+.admin-inquiry-controls input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    background-color: #fff;
+}
+
+.admin-inquiry-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.admin-inquiry-actions button {
+    margin: 0;
+}
+
+@media (max-width: 600px) {
+    .admin-inquiry-details,
+    .admin-inquiry-controls {
+        grid-template-columns: 1fr;
+    }
+
+    .admin-inquiry-card {
+        padding: 18px;
+    }
+}
+
+
+.admin-card {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.admin-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.12);
+}
+
+
+/* Admin Booking Management */
+
+.admin-booking-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 22px;
+}
+
+.admin-booking-card {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    border-left: 5px solid #1e3a5f;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+}
+
+.admin-booking-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.admin-booking-header h3 {
+    color: #1e3a5f;
+    font-size: 20px;
+}
+
+.booking-status {
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+    background-color: #e9ecef;
+    color: #495057;
+}
+
+.booking-status.pending {
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+.booking-status.confirmed {
+    background-color: #d1e7dd;
+    color: #0f5132;
+}
+
+.booking-status.in-progress {
+    background-color: #cfe2ff;
+    color: #084298;
+}
+
+.booking-status.completed {
+    background-color: #d1e7dd;
+    color: #0f5132;
+}
+
+.booking-status.cancelled {
+    background-color: #f8d7da;
+    color: #842029;
+}
+
+.admin-booking-details {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px 20px;
+    margin-bottom: 22px;
+}
+
+.admin-booking-details p {
+    color: #555;
+    font-size: 14px;
+    line-height: 1.6;
+    overflow-wrap: anywhere;
+}
+
+.admin-booking-details strong {
+    color: #333;
+}
+
+.admin-booking-controls {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px;
+    margin-bottom: 20px;
+}
+
+.admin-booking-controls label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #444;
+}
+
+.admin-booking-controls select,
+.admin-booking-controls input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    background-color: #fff;
+}
+
+.admin-booking-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.admin-booking-actions button {
+    margin: 0;
+}
+
+@media (max-width: 600px) {
+    .admin-booking-details,
+    .admin-booking-controls {
+        grid-template-columns: 1fr;
+    }
+
+    .admin-booking-card {
+        padding: 18px;
+    }
+}
+
+/* Admin Navigation Bar */
+
+.admin-navbar {
+    background-color: #1e3a5f;
+    color: white;
+    padding: 18px 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.admin-navbar h2 {
+    font-size: 22px;
+    white-space: nowrap;
+}
+
+.admin-navbar-links {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    flex-wrap: wrap;
+}
+
+.admin-navbar-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.admin-navbar-links a:hover {
+    color: #f5b942;
+}
+
+.admin-logout-btn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 9px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.admin-logout-btn:hover {
+    background-color: #bb2d3b;
+}
+
+@media (max-width: 768px) {
+    .admin-navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 18px 20px;
+    }
+
+    .admin-navbar-links {
+        gap: 15px;
+    }
+}
+
+
+
+/* Contact Page */
+
+.contact-page {
+    padding: 40px;
+    min-height: 80vh;
+}
+
+.contact-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.contact-header h1 {
+    color: #1e3a5f;
+    font-size: 36px;
+    margin-bottom: 12px;
+}
+
+.contact-header p {
+    color: #666;
+    font-size: 16px;
+}
+
+.contact-container {
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.contact-info,
+.contact-action {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+}
+
+.contact-info h2,
+.contact-action h2 {
+    color: #1e3a5f;
+    margin-bottom: 15px;
+}
+
+.contact-info > p,
+.contact-action > p {
+    color: #666;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+.contact-item {
+    margin-top: 22px;
+}
+
+.contact-item h3 {
+    color: #1e3a5f;
+    margin-bottom: 7px;
+    font-size: 17px;
+}
+
+.contact-item p {
+    color: #555;
+    line-height: 1.7;
+}
+
+.contact-inquiry-btn {
+    display: inline-block;
+    background: #1e3a5f;
+    color: white;
+    padding: 12px 22px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.contact-inquiry-btn:hover {
+    background: #f5b942;
+    color: #1e3a5f;
+}
+
+.contact-note {
+    margin-top: 30px;
+}
+
+.contact-booking-link {
+    color: #1e3a5f;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.contact-booking-link:hover {
+    color: #d49a20;
+}
+
+@media (max-width: 768px) {
+    .contact-page {
+        padding: 25px 15px;
+    }
+
+    .contact-header h1 {
+        font-size: 28px;
+    }
+
+    .contact-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+/* Additional Mobile Responsiveness */
+
+@media (max-width: 480px) {
+
+    /* Services and Vehicles */
+    .services-page,
+    .vehicles-page {
+        padding: 35px 15px;
+    }
+
+    .service-card,
+    .vehicle-card {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    /* Inquiry and Booking Forms */
+    .form-page {
+        margin: 25px 15px;
+        padding: 22px;
+    }
+
+    /* Admin Login */
+    .admin-login-page {
+        padding: 20px 15px;
+    }
+
+    .admin-login-card {
+        padding: 25px 20px;
+    }
+
+    /* Admin Dashboard */
+    .admin-dashboard {
+        padding: 20px 15px;
+    }
+
+    .admin-dashboard-header {
+        padding: 18px;
+    }
+
+    .admin-card {
+        padding: 22px;
+    }
+
+    /* Admin Management */
+    .admin-management-page {
+        padding: 25px 15px;
+    }
+
+    .admin-form-card {
+        padding: 20px 15px;
+    }
+
+    .admin-vehicle-card,
+    .admin-service-area-card {
+        padding: 20px 15px;
+    }
+
+    /* Contact Page */
+    .contact-info,
+    .contact-action {
+        padding: 22px 18px;
+    }
+}
